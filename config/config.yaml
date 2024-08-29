@@ -1,0 +1,9 @@
+# Database Connection details
+url: "JDBC Connection Details"
+user: "Username"
+password: "Password"
+driver: org.postgresql.Driver
+
+# s3 details
+s3_access_key: "YOUR_S3_ACCESS_KEY"
+s3_secret_key: "YOUR_S3_SECRET_KEY"
