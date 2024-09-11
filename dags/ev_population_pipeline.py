@@ -71,8 +71,8 @@ with DAG(
             "spark.rpc.message.maxSize": "1024",
             "spark.sql.files.maxPartitionBytes": "134217728",
         },
-        executor_memory='1g',
-        driver_memory='1g',
+        executor_memory='2g',
+        driver_memory='2g',
         application_args=[
             "s3a://ev-raw-bucket/raw_files/Electric_Vehicle_Population_Data.csv"
         ],
